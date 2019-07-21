@@ -4,7 +4,7 @@ body {
   -moz-user-select: none;
   -khtml-user-select: none;
   -ms-user-select: none;
-  color: rgb(28, 28, 30);
+  color: rgb(255, 255, 255);
 }
 
 a {
@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-  color: #02203C;
+  color: rgb(177, 152, 14);
   cursor: pointer;
 }
 
@@ -35,7 +35,7 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #f6f9fc;
+  background-color: #141414;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,8 +53,8 @@ p {
   margin: 0;
   padding: 0;
   top: 20%;
-  left: 50%;
-  width: 355px;
+  left: 43%;
+  width: 700px;
   height: 120px;
 }
 
@@ -85,13 +85,13 @@ p {
   font-size: 1.25em;
   /*font-family: Helvetica;*/
   top: 40%;
-  right: 0%;
+  right: 15%;
 }
 
 #mainIcons {
   position: absolute;
   bottom: 0%;
-  right: 3%;
+  right: 15%;
   margin: 0;
   padding: 0;
 }
@@ -131,8 +131,34 @@ ul > li > a > img:hover {
 #selfContainer {
   position: absolute;
   z-index: 1;
-  top: 20%;
+  top: 60%;
   left: 12%;
+}
+
+#discordWidget{
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 12.5%;
+
+}
+
+#timeClock{
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  left: 14%;
+  font-size: 65px;
+  font-family: fantasy;
+
+}
+
+#dateCalender{
+  position: absolute;
+  z-index: 1;
+  top: 73%;
+  left: 15%;
+  font-size: 20px;
 }
 
 #self {
